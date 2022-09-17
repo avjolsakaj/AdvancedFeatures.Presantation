@@ -1,0 +1,11 @@
+Create a class of students with properties Name, Surname, Grade (int),...
+
+Create a interface that will have two methods, HavePassed, and IsExellent.
+Implement this interface and override method that return if student have passed or not (depending from Grade bigger than 4), and if is exellent (grade is bigger that 9).
+
+Create list of students, and many students with diff values for each property.
+
+Print list of students that have passed, and a message that they can do better.
+Print list of students that are exellent, and a message that they have done a good job.
+Get Average of all student Grades.
+Order list of students from best to worst depending from Grade.

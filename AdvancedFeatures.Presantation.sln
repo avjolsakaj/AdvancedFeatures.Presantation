@@ -12,6 +12,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercises", "Exercises", "{0C5BDD56-C5D5-4109-8FD6-ED30C34C9DE3}"
 	ProjectSection(SolutionItems) = preProject
 		Photo Album.txt = Photo Album.txt
+		List of students.txt = List of students.txt
 		Show Room.txt = Show Room.txt
 	EndProjectSection
 EndProject
@@ -21,7 +22,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeatures.Exceptions
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeatures.Collections", "AdvancedFeatures.Collections\AdvancedFeatures.Collections.csproj", "{1480CB1E-53B3-48DC-A83A-E499D6AC3CB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedFeatues.Attributes", "AdvancedFeatues.Attributes\AdvancedFeatues.Attributes.csproj", "{C858A671-8F2D-4626-9A13-48D3E5DDC400}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeatues.Attributes", "AdvancedFeatues.Attributes\AdvancedFeatues.Attributes.csproj", "{C858A671-8F2D-4626-9A13-48D3E5DDC400}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
