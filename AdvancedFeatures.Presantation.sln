@@ -24,6 +24,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeatures.Collection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeatues.Attributes", "AdvancedFeatues.Attributes\AdvancedFeatues.Attributes.csproj", "{C858A671-8F2D-4626-9A13-48D3E5DDC400}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedFeatues.Generics", "AdvancedFeatues.Generics\AdvancedFeatues.Generics.csproj", "{DB127210-A641-4068-BF42-0ADCA52B9B3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +60,10 @@ Global
 		{C858A671-8F2D-4626-9A13-48D3E5DDC400}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C858A671-8F2D-4626-9A13-48D3E5DDC400}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C858A671-8F2D-4626-9A13-48D3E5DDC400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB127210-A641-4068-BF42-0ADCA52B9B3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB127210-A641-4068-BF42-0ADCA52B9B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB127210-A641-4068-BF42-0ADCA52B9B3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB127210-A641-4068-BF42-0ADCA52B9B3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
