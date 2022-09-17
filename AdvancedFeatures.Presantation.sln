@@ -15,11 +15,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercises", "Exercises", "{
 		Show Room.txt = Show Room.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedFeatues.Interface", "AdvancedFeatues.Interface\AdvancedFeatues.Interface.csproj", "{B76670E6-B392-4686-8092-11E3DB589B5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeatues.Interface", "AdvancedFeatues.Interface\AdvancedFeatues.Interface.csproj", "{B76670E6-B392-4686-8092-11E3DB589B5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedFeatures.Exceptions", "AdvancedFeatures.Exceptions\AdvancedFeatures.Exceptions.csproj", "{8CC4FBF4-7275-4B1C-BCEB-58B1BB95A8EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeatures.Exceptions", "AdvancedFeatures.Exceptions\AdvancedFeatures.Exceptions.csproj", "{8CC4FBF4-7275-4B1C-BCEB-58B1BB95A8EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedFeatures.Collections", "AdvancedFeatures.Collections\AdvancedFeatures.Collections.csproj", "{1480CB1E-53B3-48DC-A83A-E499D6AC3CB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeatures.Collections", "AdvancedFeatures.Collections\AdvancedFeatures.Collections.csproj", "{1480CB1E-53B3-48DC-A83A-E499D6AC3CB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedFeatues.Attributes", "AdvancedFeatues.Attributes\AdvancedFeatues.Attributes.csproj", "{C858A671-8F2D-4626-9A13-48D3E5DDC400}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{1480CB1E-53B3-48DC-A83A-E499D6AC3CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1480CB1E-53B3-48DC-A83A-E499D6AC3CB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1480CB1E-53B3-48DC-A83A-E499D6AC3CB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C858A671-8F2D-4626-9A13-48D3E5DDC400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C858A671-8F2D-4626-9A13-48D3E5DDC400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C858A671-8F2D-4626-9A13-48D3E5DDC400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C858A671-8F2D-4626-9A13-48D3E5DDC400}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
