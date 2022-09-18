@@ -18,30 +18,30 @@
             //    Console.WriteLine("{0}, {1}", item.Key, item.Value);
             //}
 
-            //Console.WriteLine("List: ");
+            Console.WriteLine("List: ");
 
-            //var list = new List<int>();
-            //list.Add(2);
-            //list.Add(5);
-            //list.Add(7);
-            //list.Add(3);
+            var list = new List<int>();
+            list.Add(2);
+            list.Add(5);
+            list.Add(7);
+            list.Add(3);
 
-            ////var list = new List<int>
-            ////{
-            ////    2,
-            ////    5,
-            ////    7,
-            ////    3
-            ////};
-
-            //list.Add(3);
-
-            //var list2 = list.Where(x => x > 3).ToList();
-
-            //foreach (var item in list2)
+            //var list = new List<int>
             //{
-            //    Console.WriteLine(item);
-            //}
+            //    2,
+            //    5,
+            //    7,
+            //    3
+            //};
+
+            list.Add(3);
+
+            var list2 = list.Where(x => x > 3).ToList();
+
+            foreach (var item in list2)
+            {
+                Console.WriteLine(item);
+            }
 
             //Console.WriteLine("Queue: ");
 

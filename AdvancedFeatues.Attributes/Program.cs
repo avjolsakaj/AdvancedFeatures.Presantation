@@ -4,28 +4,40 @@ internal class Program
 {
     private static void Main (string[] args)
     {
-        var att = new WithAttributes();
-        att.Name = "";
-        att.Age = 29;
+        var people = new People();
+        //people.Name= "Avjol Sakaj";   // Obsolete
 
-        _ = att.GetAge();
+        people.FirstName = "Avjol";
+        people.LastName = "Sakaj";
+        people.Age = 29;
+
+        _ = people.GetName();
     }
 }
 
 [Serializable]
-public class WithAttributes
+public class People
 {
-    [Obsolete]
-    public string Name { get; set; }
+    //[Obsolete]
+    //public string Name { get; set; }
+
+    public string FirstName { get; set; }
+
+    public string LastName { get; set; }
 
     public string Description { get; set; }
 
     public int Age { get; set; }
 
-    [Obsolete]
-    public int GetAge ()
+    //[Obsolete]
+    //public string GetName ()
+    //{
+    //    return Name;
+    //}
+
+    public string GetName ()
     {
-        return Age;
+        return $"{FirstName} {LastName}";
     }
 }
 
