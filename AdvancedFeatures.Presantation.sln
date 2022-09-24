@@ -11,6 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeatures.Polymorphi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercises", "Exercises", "{0C5BDD56-C5D5-4109-8FD6-ED30C34C9DE3}"
 	ProjectSection(SolutionItems) = preProject
+		Edit file.txt = Edit file.txt
 		List of students.txt = List of students.txt
 		Photo Album.txt = Photo Album.txt
 		Show Room.txt = Show Room.txt

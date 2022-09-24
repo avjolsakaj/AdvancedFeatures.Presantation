@@ -1,0 +1,5 @@
+Create a file with 3 lines.
+
+Create a method that reads file and edit it with 2 new lines (Text). Save the file in file system.
+
+Read updated file and check number of rows are 5.
