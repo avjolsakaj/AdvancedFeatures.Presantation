@@ -32,6 +32,8 @@ internal class Program
 
         //Operation.Call(cat);
 
+        Operation.Call();
+
         _ = Console.ReadLine();
     }
 }
@@ -76,5 +78,10 @@ public class Operation
     public static void Call (Cat cat)
     {
         Console.WriteLine($"Cat is called, {cat.Age}");
+    }
+
+    public static void Call ()
+    {
+        Console.WriteLine("Do nothing!");
     }
 }
