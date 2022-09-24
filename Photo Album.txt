@@ -1,7 +1,7 @@
 Photo Album - Practice Exercises C#
 
 Requirements:
-Create a class "PhotoAlbum" with private attributes "nrPages", "name".
+Create a class "PhotoAlbum" with attributes "nrPages", "name".
 
 It should also have a public method "GetNumberOfPages", which will return the number of pages.
 
