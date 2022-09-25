@@ -28,7 +28,7 @@ var car = RemoteControlCar.Buy();
 car.BatteryDisplay();
 
 4. Update the number of meters driven when driving
-Implement the RemoteControlCar.Drive() method that updates the number of meters driven:
+Implement the RemoteControlCar.Drive(x) method that updates the number of meters driven:
 
 var car = RemoteControlCar.Buy();
 car.Drive(20);
@@ -36,7 +36,7 @@ car.Drive(10);
 car.DistanceDisplay();
 
 5. Update the battery percentage when driving
-Update the RemoteControlCar.Drive() method to update the battery percentage:
+Update the RemoteControlCar.Drive(x) method to update the battery percentage:
 
 var car = RemoteControlCar.Buy();
 car.Drive(25);

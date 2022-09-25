@@ -14,7 +14,6 @@ namespace AdvancedFeatures.PhotoAlbum.Tests
             _smallAlbum = new AdvancedFeatues.PhotoAlbum.PhotoAlbum();
             _mediumAlbum = new AdvancedFeatues.PhotoAlbum.PhotoAlbum(24, "Medium Album");
             _bigAlbum = new BigPhotoAlbum("Big Album");
-
         }
 
         [TearDown]
@@ -59,6 +58,13 @@ namespace AdvancedFeatures.PhotoAlbum.Tests
         public void LargAlbum_Name ()
         {
             Assert.That(_bigAlbum.GetName(), Is.EqualTo("Big Album"));
+        }
+
+        [Test]
+        public void SmallAlbum_IsNotBiggerThan16 ()
+        {
+            Assert.That(_smallAlbum.GetNumberOfPages, Is.Not.EqualTo(24));
+            Assert.That(_smallAlbum.GetNumberOfPages, Is.Not.EqualTo(64));
         }
     }
 }
