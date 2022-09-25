@@ -15,6 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercises", "Exercises", "{
 		List of students.txt = List of students.txt
 		Photo Album.txt = Photo Album.txt
 		Show Room.txt = Show Room.txt
+		Remote Controlled Car.txt = Remote Controlled Car.txt
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeatues.Interface", "AdvancedFeatues.Interface\AdvancedFeatues.Interface.csproj", "{B76670E6-B392-4686-8092-11E3DB589B5F}"
@@ -41,13 +42,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeatures.ListOfStud
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{48A27D44-5B80-4EA4-BFA3-CB6D7B413AFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedFeatues.ListOfStudents.Tests", "AdvancedFeatues.ListOfStudents.Tests\AdvancedFeatues.ListOfStudents.Tests.csproj", "{02E56AFE-D4D8-48B0-B291-CE00BD3EF661}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeatues.ListOfStudents.Tests", "AdvancedFeatues.ListOfStudents.Tests\AdvancedFeatues.ListOfStudents.Tests.csproj", "{02E56AFE-D4D8-48B0-B291-CE00BD3EF661}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedFeatues.PhotoAlbum", "AdvancedFeatues.PhotoAlbum\AdvancedFeatues.PhotoAlbum.csproj", "{4603163A-C464-4A8D-9AAD-C98F61326211}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeatues.PhotoAlbum", "AdvancedFeatues.PhotoAlbum\AdvancedFeatues.PhotoAlbum.csproj", "{4603163A-C464-4A8D-9AAD-C98F61326211}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedFeatures.PhotoAlbum.Tests", "AdvancedFeatures.PhotoAlbum.Tests\AdvancedFeatures.PhotoAlbum.Tests.csproj", "{1ED56868-2DC0-4BA5-B014-1B9849C7A0E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeatures.PhotoAlbum.Tests", "AdvancedFeatures.PhotoAlbum.Tests\AdvancedFeatures.PhotoAlbum.Tests.csproj", "{1ED56868-2DC0-4BA5-B014-1B9849C7A0E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedFeatures.EditFile", "AdvancedFeatures.EditFile\AdvancedFeatures.EditFile.csproj", "{CFE92E69-BF03-4277-83A8-EF0960686487}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeatures.EditFile", "AdvancedFeatures.EditFile\AdvancedFeatures.EditFile.csproj", "{CFE92E69-BF03-4277-83A8-EF0960686487}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
