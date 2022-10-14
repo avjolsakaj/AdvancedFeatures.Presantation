@@ -1,4 +1,6 @@
-﻿namespace AdvancedFeaturesCoding.ExerciseOne;
+﻿using AdvancedFeaturesCoding.Shared;
+
+namespace AdvancedFeaturesCoding.ExerciseOne;
 
 public static class OrderDecending
 {
@@ -13,14 +15,9 @@ public static class OrderDecending
             "Gezim"
         };
 
-        foreach (var item in OrderDecendingAlphabetically(listStrings))
+        foreach (var item in Helpers.OrderDecendingAlphabetically(listStrings))
         {
             Console.WriteLine(item);
         }
-    }
-
-    public static List<string> OrderDecendingAlphabetically (List<string> strings)
-    {
-        return strings.OrderByDescending(s => s).ToList();
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace AdvancedFeaturesCoding.ExerciseTwo;
+﻿using AdvancedFeaturesCoding.Shared;
+
+namespace AdvancedFeaturesCoding.ExerciseTwo;
 
 public class Program
 {
@@ -11,26 +13,16 @@ public class Program
 
         Console.WriteLine("With Case sensitive");
 
-        foreach (var item in OrderDecendingWithCase(listStrings))
+        foreach (var item in Helpers.OrderDecendingWithCase(listStrings))
         {
             Console.WriteLine(item);
         }
 
         Console.WriteLine("Ignore Case");
 
-        foreach (var item in OrderDecendingIgnoreCase(listStrings))
+        foreach (var item in Helpers.OrderDecendingIgnoreCase(listStrings))
         {
             Console.WriteLine(item);
         }
-    }
-
-    public static List<string> OrderDecendingWithCase (List<string> strings)
-    {
-        return strings.OrderByDescending(s => s).ToList();
-    }
-
-    public static List<string> OrderDecendingIgnoreCase (List<string> strings)
-    {
-        return strings.OrderByDescending(s => s, StringComparer.OrdinalIgnoreCase).ToList();
     }
 }

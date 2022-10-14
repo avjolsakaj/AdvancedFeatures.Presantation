@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AdvancedFeaturesCoding.ExerciseOne\AdvancedFeaturesCoding.ExerciseOne.csproj" />
+    <ProjectReference Include="..\AdvancedFeaturesCoding.Shared\AdvancedFeaturesCoding.Shared.csproj" />
   </ItemGroup>
 
 </Project>
