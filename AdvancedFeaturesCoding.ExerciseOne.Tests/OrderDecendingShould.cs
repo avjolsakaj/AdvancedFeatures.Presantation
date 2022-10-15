@@ -18,6 +18,13 @@ namespace AdvancedFeaturesCoding.ExerciseOne.Tests
             };
         }
 
+        [TearDown]
+        public void TearDown ()
+        {
+            // Arrange
+            _listStrings.Clear();
+        }
+
         [Test]
         public void OrderListDec ()
         {
