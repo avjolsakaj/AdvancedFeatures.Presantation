@@ -22,7 +22,7 @@ namespace AdvancedFeaturesCoding.ExerciseOne.Tests
         public void OrderListDec ()
         {
             // Act
-            var result = Helpers.OrderDecendingAlphabetically(_listStrings);
+            var result = Helpers.OrderDescendingAlphabetically(_listStrings);
 
             // Assert
             Assert.Multiple(() =>
@@ -36,7 +36,7 @@ namespace AdvancedFeaturesCoding.ExerciseOne.Tests
         public void NotOrderListAsc ()
         {
             // Act
-            var result = Helpers.OrderDecendingAlphabetically(_listStrings);
+            var result = Helpers.OrderDescendingAlphabetically(_listStrings);
 
             // Assert
             Assert.That(result.FirstOrDefault(), Is.Not.EqualTo("Antonio"));

@@ -15,7 +15,9 @@ public static class OrderDecending
             "Gezim"
         };
 
-        foreach (var item in Helpers.OrderDecendingAlphabetically(listStrings))
+        var ordered = Helpers.OrderDescendingAlphabetically(listStrings);
+
+        foreach (var item in ordered)
         {
             Console.WriteLine(item);
         }

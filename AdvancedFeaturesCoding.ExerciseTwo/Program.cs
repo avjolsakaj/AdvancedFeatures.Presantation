@@ -13,14 +13,16 @@ public class Program
 
         Console.WriteLine("With Case sensitive");
 
-        foreach (var item in Helpers.OrderDecendingWithCase(listStrings))
+        foreach (var item in Helpers.OrderDescendingWithCase(listStrings))
         {
             Console.WriteLine(item);
         }
 
+        Console.WriteLine("===========================");
+
         Console.WriteLine("Ignore Case");
 
-        foreach (var item in Helpers.OrderDecendingIgnoreCase(listStrings))
+        foreach (var item in Helpers.OrderDescendingIgnoreCase(listStrings))
         {
             Console.WriteLine(item);
         }

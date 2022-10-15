@@ -15,18 +15,18 @@ internal class Program
         storage.AddToStorage("sakaj", "TS");
 
         // Print values
-        Console.WriteLine("Find by key:");
+        Console.WriteLine("Find by key 'avjol':");
         storage.PrintValues("avjol");
 
         Console.WriteLine();
 
         // Print key
-        Console.WriteLine("Find by value:");
+        Console.WriteLine("Find by value 'C#':");
         storage.FindValues("C#");
 
         Console.WriteLine();
 
-        Console.WriteLine("Unknown value:");
+        Console.WriteLine("Unknown value 'C++':");
         storage.FindValues("C++");
     }
 
