@@ -1,4 +1,4 @@
-﻿namespace AdvancedFeaturesCoding.Shared;
+﻿namespace AdvancedFeaturesCoding.Shared.Implementations;
 
 public class Helpers
 {

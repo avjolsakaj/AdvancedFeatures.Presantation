@@ -1,4 +1,4 @@
-﻿using AdvancedFeaturesCoding.Shared;
+﻿using AdvancedFeaturesCoding.Shared.Implementations;
 
 namespace AdvancedFeaturesCoding.ExerciseThree;
 

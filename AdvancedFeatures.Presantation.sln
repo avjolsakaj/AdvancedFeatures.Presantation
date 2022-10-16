@@ -58,7 +58,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeaturesCoding.Exer
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{729A0CF3-FF65-4BCC-B02A-120CF95C5A2A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeaturesCoding.ExerciseOne.Tests", "AdvancedFeaturesCoding.ExerciseOne.Tests\AdvancedFeaturesCoding.ExerciseOne.Tests.csproj", "{3CFA034A-82BE-4CC8-B544-C1076F3ACA18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeaturesCoding.Shared.Tests", "AdvancedFeaturesCoding.ExerciseOne.Tests\AdvancedFeaturesCoding.Shared.Tests.csproj", "{3CFA034A-82BE-4CC8-B544-C1076F3ACA18}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeaturesCoding.ExerciseTwo", "AdvancedFeaturesCoding.ExerciseTwo\AdvancedFeaturesCoding.ExerciseTwo.csproj", "{2577CCF3-6A6E-4A4F-B95A-AD20D11A4038}"
 EndProject
@@ -66,7 +66,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeaturesCoding.Shar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeaturesCoding.ExerciseThree", "AdvancedFeaturesCoding.ExerciseThree\AdvancedFeaturesCoding.ExerciseThree.csproj", "{B44DE855-9A13-4198-B8CB-2E18180699C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedFeaturesCoding.ExerciseFour", "AdvancedFeaturesCoding.ExerciseFour\AdvancedFeaturesCoding.ExerciseFour.csproj", "{ECF89610-A720-4AF6-9767-09A0305F869F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeaturesCoding.ExerciseFour", "AdvancedFeaturesCoding.ExerciseFour\AdvancedFeaturesCoding.ExerciseFour.csproj", "{ECF89610-A720-4AF6-9767-09A0305F869F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedFeaturesCoding.ExerciseSeven", "AdvancedFeaturesCoding.ExerciseFive\AdvancedFeaturesCoding.ExerciseSeven.csproj", "{BEB84EA2-1DC3-485B-9934-0027275C8754}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -170,6 +172,10 @@ Global
 		{ECF89610-A720-4AF6-9767-09A0305F869F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECF89610-A720-4AF6-9767-09A0305F869F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECF89610-A720-4AF6-9767-09A0305F869F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEB84EA2-1DC3-485B-9934-0027275C8754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB84EA2-1DC3-485B-9934-0027275C8754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB84EA2-1DC3-485B-9934-0027275C8754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB84EA2-1DC3-485B-9934-0027275C8754}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -202,6 +208,7 @@ Global
 		{753F5324-AD41-4C1B-AA77-A721823BB229} = {811BD7B0-EABA-45A2-A464-5ED5CBBD59A0}
 		{B44DE855-9A13-4198-B8CB-2E18180699C5} = {811BD7B0-EABA-45A2-A464-5ED5CBBD59A0}
 		{ECF89610-A720-4AF6-9767-09A0305F869F} = {811BD7B0-EABA-45A2-A464-5ED5CBBD59A0}
+		{BEB84EA2-1DC3-485B-9934-0027275C8754} = {811BD7B0-EABA-45A2-A464-5ED5CBBD59A0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {42862C56-5F25-4F1C-A526-2CCD759040A7}
