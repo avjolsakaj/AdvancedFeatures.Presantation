@@ -70,13 +70,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeaturesCoding.Exer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeaturesCoding.ExerciseSeven", "AdvancedFeaturesCoding.ExerciseFive\AdvancedFeaturesCoding.ExerciseSeven.csproj", "{BEB84EA2-1DC3-485B-9934-0027275C8754}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedFeaturesCoding.ExerciseSix", "AdvancedFeaturesCoding.ExerciseSix\AdvancedFeaturesCoding.ExerciseSix.csproj", "{36F41FD3-18E9-4AF6-8A94-B9EB3ED93CDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeaturesCoding.ExerciseSix", "AdvancedFeaturesCoding.ExerciseSix\AdvancedFeaturesCoding.ExerciseSix.csproj", "{36F41FD3-18E9-4AF6-8A94-B9EB3ED93CDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedFeaturesCoding.ExerciseThirteen", "AdvancedFeaturesCoding.ExerciseThirteen\AdvancedFeaturesCoding.ExerciseThirteen.csproj", "{C504F929-DA37-471B-841D-947F85FF2BFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeaturesCoding.ExerciseThirteen", "AdvancedFeaturesCoding.ExerciseThirteen\AdvancedFeaturesCoding.ExerciseThirteen.csproj", "{C504F929-DA37-471B-841D-947F85FF2BFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedFeaturesCoding.ExerciseTwelve", "AdvancedFeaturesCoding.ExerciseTwelve\AdvancedFeaturesCoding.ExerciseTwelve.csproj", "{94BE7E49-5DC7-49BA-8305-4791DBD2CC1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeaturesCoding.ExerciseTwelve", "AdvancedFeaturesCoding.ExerciseTwelve\AdvancedFeaturesCoding.ExerciseTwelve.csproj", "{94BE7E49-5DC7-49BA-8305-4791DBD2CC1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedFeaturesCoding.ExerciseTeen", "AdvancedFeaturesCoding.ExercseTeen\AdvancedFeaturesCoding.ExerciseTeen.csproj", "{CD798087-9600-456D-891C-F0598370FCCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeaturesCoding.ExerciseTeen", "AdvancedFeaturesCoding.ExercseTeen\AdvancedFeaturesCoding.ExerciseTeen.csproj", "{CD798087-9600-456D-891C-F0598370FCCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedFeaturesCoding.Exercise5", "AdvancedFeaturesCoding.Exercise5\AdvancedFeaturesCoding.Exercise5.csproj", "{02CE1C55-DDE6-4091-8738-A0D9D79F9D07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -200,6 +202,10 @@ Global
 		{CD798087-9600-456D-891C-F0598370FCCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD798087-9600-456D-891C-F0598370FCCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD798087-9600-456D-891C-F0598370FCCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02CE1C55-DDE6-4091-8738-A0D9D79F9D07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02CE1C55-DDE6-4091-8738-A0D9D79F9D07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02CE1C55-DDE6-4091-8738-A0D9D79F9D07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02CE1C55-DDE6-4091-8738-A0D9D79F9D07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -237,6 +243,7 @@ Global
 		{C504F929-DA37-471B-841D-947F85FF2BFD} = {811BD7B0-EABA-45A2-A464-5ED5CBBD59A0}
 		{94BE7E49-5DC7-49BA-8305-4791DBD2CC1F} = {811BD7B0-EABA-45A2-A464-5ED5CBBD59A0}
 		{CD798087-9600-456D-891C-F0598370FCCA} = {811BD7B0-EABA-45A2-A464-5ED5CBBD59A0}
+		{02CE1C55-DDE6-4091-8738-A0D9D79F9D07} = {811BD7B0-EABA-45A2-A464-5ED5CBBD59A0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {42862C56-5F25-4F1C-A526-2CCD759040A7}
