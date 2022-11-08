@@ -1,34 +1,33 @@
 ﻿using AdvancedFeaturesCoding.ExerciseTwenty;
 
-namespace AdvancedFeaturesExerciseTwenty
+namespace AdvancedFeaturesExerciseTwenty;
+
+internal class Program
 {
-    internal class Program
+    private static void Main (string[] args)
     {
-        private static void Main (string[] args)
+        var numbers = new List<int>
         {
-            var numbers = new List<int>
-            {
-                1, 2, 3, 4, 5, 6, 7
-            };
+            1, 2, 3, 4, 5, 6, 7
+        };
 
-            var strings = new List<string>
-            {
-                "koli",
-                "enio",
-                "aleks"
-            };
+        var strings = new List<string>
+        {
+            "koli",
+            "enio",
+            "aleks"
+        };
 
-            var joining = new Joiner<int>(",");
-            var result = joining.Join(numbers);
+        var joining = new Joiner<int>(",");
+        var result = joining.Join(numbers);
 
-            var joiningString = new Joiner<string>(",");
-            var resultString = joiningString.Join(strings);
+        var joiningString = new Joiner<string>(",");
+        var resultString = joiningString.Join(strings);
 
-            Console.WriteLine(result);
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine(resultString);
-        }
+        Console.WriteLine(result);
+        Console.WriteLine();
+        Console.WriteLine();
+        Console.WriteLine();
+        Console.WriteLine(resultString);
     }
 }
